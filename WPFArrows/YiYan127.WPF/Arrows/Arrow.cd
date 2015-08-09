@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="箭头所在端">
+    <Position X="8.679" Y="0.5" Height="0.29" Width="1.023" />
+  </Comment>
+  <Comment CommentText="箭头基类&#xD;&#xA;">
+    <Position X="5.937" Y="0.5" Height="0.29" Width="1.023" />
+  </Comment>
+  <Comment CommentText="二次贝塞尔曲线&#xD;&#xA;">
+    <Position X="2.368" Y="2.268" Height="0.29" Width="1.176" />
+  </Comment>
+  <Comment CommentText="直线">
+    <Position X="4.955" Y="2.214" Height="0.29" Width="1.023" />
+  </Comment>
+  <Comment CommentText="贝塞尔曲线&#xD;&#xA;">
+    <Position X="8.263" Y="2.159" Height="0.29" Width="1.023" />
+  </Comment>
+  <Comment CommentText="带文本的直线&#xD;&#xA;">
+    <Position X="5.555" Y="3.861" Height="0.29" Width="1.023" />
+  </Comment>
+  <Comment CommentText="可调整的二次贝塞尔曲线&#xD;&#xA;">
+    <Position X="2.008" Y="3.968" Height="0.29" Width="1.807" />
+  </Comment>
+  <Comment CommentText="可调整的贝塞尔曲线&#xD;&#xA;">
+    <Position X="7.892" Y="3.935" Height="0.29" Width="1.533" />
+  </Comment>
+  <Class Name="WPFArrows.Arrows.ArrowLine" Collapsed="true">
+    <Position X="4.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAUAACAAAQAAAAAAAAQAAAAAAAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>Arrows\ArrowLine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WPFArrows.Arrows.ArrowBase" Collapsed="true">
+    <Position X="5.5" Y="0.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>GAAAAUAAARDAAAACAAAQAQAAQAAIAAAISAAAgAABAAg=</HashCode>
+      <FileName>Arrows\ArrowBase.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="ArrowEnds" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="WPFArrows.Arrows.ArrowBezierCurve" Collapsed="true">
+    <Position X="7.75" Y="2.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>EAAAAUBAAAAAQAAAAAAAAQAAAAAYAAIAAIAAAAAIAAA=</HashCode>
+      <FileName>Arrows\ArrowBezierCurve.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WPFArrows.Arrows.ArrowLineWithText" Collapsed="true">
+    <Position X="4.5" Y="4.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAiAAAAEEAAAAAAAAAAAAAAAEAAAKABAAIA=</HashCode>
+      <FileName>Arrows\ArrowLineWithText.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WPFArrows.Arrows.ArrowQuadraticBezier" Collapsed="true">
+    <Position X="1.75" Y="2.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>EAgAAUAAAAAAQAAAAAAAAQAAAAAAACIAAIAAAAAAAAA=</HashCode>
+      <FileName>Arrows\ArrowQuadraticBezier.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WPFArrows.Arrows.AdjustableArrowQuadraticBezier" Collapsed="true">
+    <Position X="1.25" Y="4.25" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAAAQIAQAAAAAABAgAAAAIEAAIAQCAAA=</HashCode>
+      <FileName>Arrows\AdjustableArrowQuadraticBezier.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WPFArrows.Arrows.AdjustableArrowBezierCurve" Collapsed="true">
+    <Position X="7.5" Y="4.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAgAAAAQIAQAAAABABAgAAAAIEAAIAACAAA=</HashCode>
+      <FileName>Arrows\AdjustableArrowBezierCurve.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="WPFArrows.Arrows.ArrowEnds" Collapsed="true">
+    <Position X="8.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAACAAAAAAAgAAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Arrows\ArrowEnds.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="微软雅黑" Size="9" />
+</ClassDiagram>

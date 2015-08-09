@@ -1,0 +1,31 @@
+﻿<Window x:Class="YiYan127.WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:arrows="clr-namespace:YiYan127.WPF.Arrows"
+        Title="MainWindow"
+        Width="525"
+        Height="350">
+    <Canvas>
+        <arrows:ArrowLine Stroke="Black"
+                          StartPoint="10,10"
+                          EndPoint="100,100" />
+        <arrows:ArrowLineWithText ArrowEnds="Both"
+                                  IsTextUp="True"
+                                  Stroke="Blue"
+                                  StrokeDashArray="5,3"
+                                  Text="推导出"
+                                  TextAlignment="Center"
+                                  StartPoint="110,110"
+                                  EndPoint="180,180" />
+        <arrows:ArrowQuadraticBezier ControlPoint="200,100"
+                                     Stroke="Yellow"
+                                     StartPoint="250,180"
+                                     EndPoint="500,20" />
+        <arrows:AdjustableArrowBezierCurve ControlPoint1="230,200"
+                                           ControlPoint2="300,300"
+                                           ShowControl="True"
+                                           Stroke="Black"
+                                           StartPoint="200,200"
+                                           EndPoint="500,300" />
+    </Canvas>
+</Window>
